@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "jsdoc": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "run-docs": "jsdoc -c jsdoc.json",
+    "tsNode": "cd src && ts-node index.ts",
+    "run-nodemon": "nodemon",
+    "transpile": "tsc",
+    "build:prod": "rimraf dist && tsc",
+    "start:prod": "npm run build:prod && node dist/index.js"
   }
 }
