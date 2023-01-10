@@ -21,3 +21,7 @@ rimraf
 
 
 npm i --save-dev rimraf
+npm i --save-dev rimraf
+npm i --save-dev rimraf
+npm i --save-dev rimraf
+npm i --save-dev rimraf
