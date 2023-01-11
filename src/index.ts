@@ -99,3 +99,39 @@ type Puesto2 = 'Programador' | 'Analista' | 'Tester' | 'Arquitecto';
 let puestoFavorito2: Puesto2 = 'Arquitecto';
 
 
+
+
+//Funciones
+
+/**
+ * @description Funcion que suma dos numeros y devuelve el resultado
+ * @param a primer numero
+ * @param b segundo numero
+ * @returns number
+ */
+function sumar(a: number, b: number): number{
+    return a + b;
+}
+
+//Funcion con parametros por defecto
+
+/**
+ *@description Funcion que suma dos numeros y devuelve el resultado, en el caso de que el segundo parametro no se pase, se le asigna el valor 0
+ * @param a
+ * @param b
+ * @returns number
+ */
+function sumar2(a: number, b: number = 0): number{
+    return a + b;
+}
+
+console.log(sumar(1, 2));
+console.log(sumar2(1));
+
+//Sobrecarga de funciones
+
+//Funciones asincronas
+
+//Funciones generadoras
+
+

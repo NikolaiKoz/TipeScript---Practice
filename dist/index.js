@@ -58,3 +58,12 @@ let tarea = {
     color: Color.Rojo
 };
 console.log(tarea);
+let puestoFavorito2 = 'Arquitecto';
+//Funciones
+function sumar(a, b) {
+    return a + b;
+}
+console.log(sumar(1, 2));
+//Sobrecarga de funciones
+//Funciones asincronas
+//Funciones generadoras
