@@ -130,6 +130,12 @@ console.log(sumar2(1));
 
 //Sobrecarga de funciones
 
+/**
+ * Básicamente es la posibilidad de establecer "diferentes" implementaciones sobre una misma función lo que nos va a permitir realizar diferentes tareas dependiendo de lo que la función reciba como parámetro.
+
+Es decir, con una única función podemos realizar 2 tareas diferentes en lugar de crear una función para cada tarea (2 funciones).
+ */
+
 //Funciones asincronas
 
 //Funciones generadoras
