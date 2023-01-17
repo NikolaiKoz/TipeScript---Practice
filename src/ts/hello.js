@@ -5,3 +5,8 @@ function greet(person, date) {
 greet("Maddison", new Date());
 const msg = 'Hello there!';
 const myArray = [1, 2, 3];
+//Anotaciones para parametros
+const add = (a, b) => {
+    return a + b;
+};
+console.log(add(5, 3));

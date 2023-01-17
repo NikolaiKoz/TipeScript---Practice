@@ -10,3 +10,11 @@ const msg: string = 'Hello there!';
 
 const myArray: number[] = [1, 2, 3];
 
+//Anotaciones para parametros
+
+const add = (a: number, b: number): number =>{
+    return a + b;
+}
+
+console.log(add(5, 3))
+
