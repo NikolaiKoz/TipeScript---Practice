@@ -28,3 +28,4 @@ const pt = {
 };
 printCordenates(pt);
 console.log('Hola Jose Luis, Lograste las importaciones en ts, tranquilo, podras con todo');
+console.log('Este es el archivo observado');
